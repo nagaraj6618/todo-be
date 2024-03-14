@@ -15,5 +15,5 @@ app.get('/',(req,res)=>{
   res.send("Working")
 })
 
-app.use('/api/v1/list',routerPage)
+app.use('/api/v1/list',routerPage);
 app.listen(PORT,()=>console.log(`listening at http://localhost:${PORT}`))
